@@ -1,0 +1,2 @@
+create table nyc_trip_anonymized (NUMBER bigint, Pickup_Datetime timestamp, Dropoff_Datetime timestamp, Passenger_Count smallint, Trip_Time integer, Trip_Distance double precision, Pickup_Longitude float, Pickup_Latitude float, Dropoff_Longitude float, Dropoff_Latitude float, ZCTA_PICKUP char(5), ZCTA_DROPOFF char(5));
+
