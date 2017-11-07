@@ -1,0 +1,211 @@
+* {
+    padding:0;
+    margin:0;
+    text-align: left;
+}
+
+html{
+    font:14px normal Arial, sans-serif;
+    color:#626771;
+    background-color:#161d1d;
+    /*202a2b*/
+}
+
+body{
+    text-align: center;
+    background-color: #161d1d;
+    overflow-x: scroll;;
+    /*030d25*/
+}
+
+svg {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul{
+    text-align: left;
+    list-style:none;
+    display: block;
+}
+
+ul.nav li{
+    display: inline-block;
+    padding: 10px 20px;
+    cursor:pointer;
+    background-color:#090909;
+    color:#fff;
+
+    transition:0.3s;
+}
+
+ul.nav li:hover{
+    background-color:#fff;
+    color: #222;
+}
+
+ul.nav li.active:hover span{
+  border-bottom: 2px solid #222;
+}
+
+ul.nav li.focused{
+    color:#fff;
+    background-color:#41c7c2;
+}
+
+li span {
+  border-bottom: 0px;
+}
+
+li.active span {
+  border-bottom: 2px solid #fff;
+  /*background-color: #623bbb*/
+  /*text-decoration: underline;*/
+}
+
+
+ul.nav-dataset li{
+    padding: 0 20px 15px 0;
+    cursor:pointer;
+    color:#7d8390;
+
+    transition:0.3s;
+}
+
+ul.nav-dataset li:hover{
+    color: #fff;
+}
+
+ul.nav li.focused{
+    color:#fff;
+}
+li.selected span {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+
+p {
+
+    padding-top:15px;
+    font-size:12px;
+}
+
+.nav {
+  background-color:#090909;
+  padding-left: 20px;
+}
+
+.zcta-borders {
+  fill: none;
+  /*stroke: #111111;*/
+  /*stroke-width: 0.5px;*/
+}
+
+.zcta-fill {
+    fill: #fffcf9;
+}
+
+
+.points {
+    stroke-width: 1px;
+    stroke: #000;
+}
+
+.arcs path {
+	  stroke-width: 2px;
+	  stroke: tomato;
+	  pointer-events: none;
+	  fill: none;
+	}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #575757;
+  shape-rendering: crispEdges;
+}
+.axisText path, .axis line {
+  fill: none;
+}
+.tick text {
+    fill: #575757;
+}
+
+.overlay{
+  display: none;
+}
+
+.viz-container{
+  width: 1366px;
+  /*background-color: rgb(80, 50, 209);*/
+}
+
+.map {
+  display: block;
+  margin: 0;
+}
+
+.map-svg {
+  margin: 20px 0 0 123px;
+}
+
+.mapContainer {
+  width: 1006px;
+  padding: 20px 0 20px 0;
+  margin: 0 0 0 20px;
+  float: left;
+}
+
+.info-insert {
+  float: left;
+
+  width: 300px;
+
+  margin: 20px 0 0 20px;
+
+  background-color: #202828;
+}
+
+.info-insert h3 {
+    color: #bbc2d0;
+    margin-bottom: 20px;
+}
+
+.info-insert p {
+  color: #7d8390;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0;
+  margin-top: 5px;
+}
+
+
+.info--part{
+  padding: 20px;
+}
+
+.separator {
+  height: 1px;
+  width: 100%;
+  clear: both;
+}
+
+.container--timeline {
+  position: absolute;
+  top: 780px;
+  margin: 15px 0 0 340px;
+  width: 800px;
+}
+
+.timeText h3 {
+  text-align: center;
+}
+
+.img-logo{
+   width: 100px;
+   margin-top: 10px;
+}
