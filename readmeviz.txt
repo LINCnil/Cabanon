@@ -17,7 +17,6 @@ You should find the following files and folders in the app :
   - "package.json" : file including all the depencencies and their version used by the visualisation ;
   - "webpack.config.js" : configuration file of the app ;
   - "node_modules" : folder including all the dependencies and libraries used by the app to run it locally ;
-  - "css" : folder with global css file ;
   - "public" : folder where the datasets are stored and additional graphic elements ;
   - "src" : folder including all the components and assets forming the visualisation ;
 
